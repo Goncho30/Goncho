@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <!-- 1) viewport le dice al navegador que la pagina es Responsive (RWD) y no la miniaturice ni permita el zoom del usuario-->    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Untitled Document</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    
+   
+    
+
+
+
+	
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <header>
+            <div>
+                <img src="images/logo.jpg" alt="">
+            </div>
+        </header>
+
+
+
+        <nav>
+
+	<div class="siCel">
+		
+	<img src="images/menu.png"/>		
+			
+	</div>		
+			
+            <ul class="noCel" >
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </nav>
+
+
+
+
+        <div class="banner noCel">
+
+            <img src="images/Banner.jpg" alt="" class="imgR">
+
+        </div>
+
+
+        <section>
+
+<div class="controles">
+<input type="text" id="nuevaTarea"  placeholder="Ingresa la tarea">
+<input type="text" id="encargado"  placeholder="Encargado">
+<button  id="agregarTarea">Agregar Tarea</button>
+</div>
+
+
+<div class="lista">
+
+    <table id="tablaTareas">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descripción de Tarea</th>
+                <th>encargado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody id="listaTareas">
+
+            <tr>
+                <td>1)</td>
+                <td>Despertar</td>
+                <td>Juan</td>
+                <td>(B) (E)</td>
+            </tr>
+            <tr>
+                <td>2)</td>
+                <td>Ir por el pan</td>
+                <td>Luis</td>
+                <td>(B) (E)</td>
+            </tr>   
+
+
+        </tbody>
+
+
+    </table>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+     
+
+
+          <div id="galeria"> </div>
+			
+			
+			
+        </section>
+
+
+        <footer>
+            <div>
+                <img src="images/fb-icon.png" alt="">
+                <img src="images/in-icon.png" alt="">
+                <img src="images/pínterest-icon.png" alt="">
+                <img src="images/twitter-icon.png" alt="">
+            </div>
+
+            <p>
+                (c) Avantra Networks
+            </p>
+
+
+
+        </footer>
+
+    </div>
+    <script src="jsCode.js"></script>
+
+</body>
+
+</html>
